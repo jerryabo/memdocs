@@ -37,7 +37,7 @@ ms.collection:
 
 ## Prerequisites 
 
-Currently, for single-session, Intune supports Azure Virtual Desktop VMs that are: 
+For single-session, Intune supports Azure Virtual Desktop VMs that are: 
 
 - Running Windows 10 Enterprise, version 1809 or later, or running Windows 11.
 - Set up as [personal remote desktops](/azure/virtual-desktop/configure-host-pool-personal-desktop-assignment-type) in Azure. 
@@ -49,7 +49,7 @@ Currently, for single-session, Intune supports Azure Virtual Desktop VMs that ar
 
 For more information on Azure Virtual Desktop licensing requirements, see [What is Azure Virtual Desktop?](/azure/virtual-desktop/overview#requirements).
 
-For information about working with multi-session remote desktops, see [Windows 10 or Windows 11 Enterprise multi-session remote desktops](azure-virtual-desktop-multi-session.md).
+For Azure Virtual Desktop multi-session Intune support, see [Windows 10 or Windows 11 Enterprise multi-session remote desktops](azure-virtual-desktop-multi-session.md).
 
 Intune treats Azure Virtual Desktop personal VMs the same as Windows 10 or Windows 11 Enterprise physical desktops. This treatment lets you use some of your existing configurations and secure the VMs with compliance policy and conditional access. Intune management doesn't depend on or interfere with Azure Virtual Desktop management of the same virtual machine. 
 
